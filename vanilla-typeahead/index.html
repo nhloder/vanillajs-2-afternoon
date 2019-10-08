@@ -85,6 +85,8 @@
 
 <script>
     const starships = []
+    const list = document.getElementById('list');
+    const search = document.querySelector('input')
 
     fetch("https://www.swapi.co/api/starships")
     .then(response => response.json())
